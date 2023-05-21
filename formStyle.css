@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans:wght@800&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    padding: 15px;
+    background-color: #ddc3c3;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 1000px;
+    background-color: white;
+    padding: 0;
+}
+
+
+.form-control {
+    height: 25px;
+    width: 150px;
+    border: none;
+    border-radius: 0;
+    font-weight: 800;
+    padding: 0 0 5px 0;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    margin: 0;
+    font-size: 14px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-bottom: 2px solid #ccc;
+    background-color: transparent;
+}
+
+.form-control2 {
+    font-size: 14px;
+    height: 20px;
+    width: 55px;
+    border: none;
+    border-radius: 0;
+    font-weight: 800;
+    padding: 0 0 5px 0;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    margin: 0;
+}
+
+.form-control2:focus {
+    box-shadow: none;
+    border-bottom: 2px solid #ccc;
+    background-color: transparent;
+}
+
+.form-control3 {
+    font-size: 14px;
+    height: 20px;
+    width: 30px;
+    border: none;
+    border-radius: 0;
+    font-weight: 800;
+    padding: 0 0 5px 0;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    margin: 0;
+}
+
+.form-control3:focus {
+    box-shadow: none;
+    border-bottom: 2px solid #ccc;
+    background-color: transparent;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.text-muted {
+    font-size: 10px;
+}
+
+p{
+line-height: 20px !important;
+}
+
+.my-4 {
+    margin-top: 0.5rem !important;}
+
+.textmuted {
+    color: #7d756c;
+    font-size: 13px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.bg-primary, .bg-success{
+    background-color: #ad26d2 !important;
+    border-top:4px solid black;
+    border-bottom:4px solid black;
+}
+.bg-secondary{
+    background-color: #a8b7ca !important;
+    border-top:4px solid #ad26d2;
+    border-bottom:4px solid #ad26d2;
+}
+
+.bg-primary{
+    background-color: #ad26d2 !important;
+    border-top:4px solid black;
+    border-bottom:4px solid black;
+}
+
+
+.bg-primary:hover, .bg-secondary:hover, .bg-success:hover{
+    transform: translateY(-20px);
+    transition: all 0.2s linear;
+}
+
+.active{
+    transform: translateY(-20px);
+    transition: all 0.2s linear;
+}
+
+.active1:hover{
+    transform: translateY(-20px);
+    transition: all 0.2s linear;
+}
+
+.bg-light:hover .active{
+    transform: translateY(0);
+    transition: all 0.2s linear;
+}
+
+
+
+
+.btn.btn-primary {
+    width: 100%;
+    height: 55px;
+    border-radius: 0;
+    padding: 13px 0;
+    background-color: black;
+    border: none;
+    font-weight: 600;
+}
+
+.btn.btn-primary:hover .fas {
+    transform: translateX(10px);
+    transition: transform 0.5s ease
+}
+
+
+.fw-900 {
+    font-weight: 900;
+}
+
+::placeholder {
+    font-size: 12px;
+}
+
+.ps-30 {
+    padding-left: 30px;
+}
+
+.h4 {
+    font-family: 'Work Sans', sans-serif !important;
+    font-weight: 800 !important;
+}
+
+.textmuted,
+h5,
+.text-muted {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* select dropdown icon removal */
+
+
+         select {
+            appearance: none;
+
+            /* for Firefox */
+            -moz-appearance: none;
+
+            /* for Safari, Chrome, Opera */
+            -webkit-appearance: none;
+          }
+
+          /* for IE10 */
+           select::-ms-expand {
+            display: none;
+          }
+
+          .col-lg-5:hover select{
+            appearance:auto;
+
+        }
+
+         option[value='Monthly']{
+            text-align:right;
+        }
+
+
