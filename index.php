@@ -83,7 +83,7 @@
                         function (data) {
                             // console.log(data);
                             // alert(`sub is : ${sub}  Name is : ${name} and payment id is : ${response.razorpay_payment_id}`);
-                            window.location.href = 'thank_you.php';
+                            window.location.href = 'https://teachyourdear.000webhostapp.com/thank_you.php';
 
                         }
 
